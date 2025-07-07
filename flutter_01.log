@@ -1,0 +1,63 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run -d chrome
+
+## exception
+
+WipError: WipError -32000 Cannot find context with specified id
+
+```
+```
+
+## flutter doctor
+
+```
+[32m[✓][39m Flutter (Channel stable, 3.32.4, on Microsoft Windows [Version 10.0.19045.5965], locale en-US) [10.6s]
+    [32m•[39m Flutter version 3.32.4 on channel stable at F:\Flutter\flutter
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 6fba2447e9 (3 weeks ago), 2025-06-12 19:03:56 -0700
+    [32m•[39m Engine revision 8cd19e509d
+    [32m•[39m Dart version 3.8.1
+    [32m•[39m DevTools version 2.45.1
+
+[32m[✓][39m Windows Version (10 Pro 64-bit, 22H2, 2009) [38.5s]
+
+[32m[✓][39m Android toolchain - develop for Android devices (Android SDK version 34.0.0) [117.7s]
+    [32m•[39m Android SDK at F:\Commandline
+    [32m•[39m Platform android-34, build-tools 34.0.0
+    [32m•[39m Java binary at: C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin\java.exe
+      This JDK was found in the system PATH.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    [32m•[39m Java version OpenJDK Runtime Environment Temurin-21.0.7+6 (build 21.0.7+6-LTS)
+    [32m•[39m All Android licenses accepted.
+
+[32m[✓][39m Chrome - develop for the web [5.7s]
+    [32m•[39m Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[33m[!][39m Visual Studio - develop Windows apps (Visual Studio Build Tools 2019 16.11.47) [5.6s]
+    [32m•[39m Visual Studio at C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools
+    [32m•[39m Visual Studio Build Tools 2019 version 16.11.36107.64
+    [31m✗[39m Visual Studio is missing necessary components. Please re-run the Visual Studio installer for the "Desktop development with C++" workload, and
+      include these components:
+        MSVC v142 - VS 2019 C++ x64/x86 build tools
+         - If there are multiple build tool versions available, install the latest
+        C++ CMake tools for Windows
+        Windows 10 SDK
+
+[33m[!][39m Android Studio (not installed) [69ms]
+    [32m•[39m Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/to/windows-android-setup for detailed instructions).
+
+[32m[✓][39m Connected device (3 available) [1,325ms]
+    [32m•[39m Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.19045.5965]
+    [32m•[39m Chrome (web)      • chrome  • web-javascript • Google Chrome 137.0.7151.120
+    [32m•[39m Edge (web)        • edge    • web-javascript • Microsoft Edge 138.0.3351.55
+
+[32m[✓][39m Network resources [2.1s]
+    [32m•[39m All expected network resources are available.
+
+[33m![39m Doctor found issues in 2 categories.
+```
