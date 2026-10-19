@@ -38697,7 +38697,7 @@ A.G_.prototype={
 pk(a,b){return this.aiu(a,b)},
 aiu(a,b){var s=0,r=A.S(t.y),q,p,o,n,m,l
 var $async$pk=A.T(function(c,d){if(c===1)return A.P(d,r)
-while(true)switch(s){case 0:o=A.eq("http://127.0.0.1:8000/api/auth/login")
+while(true)switch(s){case 0:o=A.eq("https://city-weather-api.page.gd/api/auth/login")
 n=t.N
 m=A.aj(["Content-Type","application/json"],n,n)
 s=3
@@ -38721,7 +38721,7 @@ return A.R($async$pk,r)},
 yZ(a,b,c,d){return this.aku(0,b,c,d)},
 aku(a,b,c,d){var s=0,r=A.S(t.y),q,p,o,n
 var $async$yZ=A.T(function(e,f){if(e===1)return A.P(f,r)
-while(true)switch(s){case 0:p=A.eq("http://127.0.0.1:8000/api/auth/register")
+while(true)switch(s){case 0:p=A.eq("https://city-weather-api.page.gd/api/auth/register")
 o=t.N
 n=A.aj(["Content-Type","application/json"],o,o)
 s=3
