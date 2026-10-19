@@ -1,8 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-
-const String baseUrl = "http://127.0.0.1:8000/api";
+import '../constants/api_constants.dart';
 
 class AuthService {
 
