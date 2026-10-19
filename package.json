@@ -1,0 +1,10 @@
+{
+  "name": "city-weather-app",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build/web"
+  }
+}
