@@ -1,1 +1,1 @@
-const String baseUrl = "https://city-weather-api.page.gd/api";
+const String baseUrl = "/api";
