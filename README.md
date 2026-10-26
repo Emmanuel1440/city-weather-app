@@ -1,10 +1,10 @@
-# 🌤️ City Weather App
+#  City Weather App
 
 A beautiful Flutter-based weather forecast app that provides current and 5-day weather forecasts for multiple cities. Features stunning UI animations, dark mode support, weather icons, and fun facts per city.
 
 ![screenshot](assets/images/demo_preview.png) 
 
-## 🚀 Features
+##  Features
 
 - 🔍 Search for any city and get current + 5-day forecasts
 - 🌆 Dynamic city images with fun facts
@@ -13,16 +13,9 @@ A beautiful Flutter-based weather forecast app that provides current and 5-day w
 - 📍 Town breakdown for each city
 - 💾 Saves search history locally with `SharedPreferences`
 
----
-
-## 📸 Preview
 
 
-<img src="assets/images/demo_preview.png" width="300" alt="Demo" />
-
----
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Flutter**
 - **Dart**
@@ -33,7 +26,7 @@ A beautiful Flutter-based weather forecast app that provides current and 5-day w
 
 ---
 
-## 🧪 Getting Started
+##  Getting Started
 
 
 ### 1. Clone the repository:
